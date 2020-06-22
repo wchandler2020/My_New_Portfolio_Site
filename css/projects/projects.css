@@ -1,0 +1,80 @@
+#project {
+  padding: 100px 15px;
+}
+
+#project .project-image {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+#project .project-image .img {
+  width: 100%;
+  height: 450px;
+  background-position: center center !important;
+  background-repeat: no-repeat !important;
+  background-size: cover !important;
+}
+
+#project h1 {
+  font-size: 4rem;
+  font-weight: 600;
+  margin-bottom: 1.5rem;
+}
+
+#project .info .buttons {
+  padding: 20px 0;
+}
+
+#project .info .fas {
+  margin-right: 8px;
+}
+
+#project .info .fab {
+  margin-right: 8px;
+}
+
+#project .info .buttons a {
+  display: inline-block;
+  padding: 10px 20px;
+  color: #fff;
+  background: #000;
+  text-decoration: none;
+  transition: all 0.4s ease-in-out;
+}
+
+#project .info .buttons a:hover {
+  background: #fff;
+  color: rgba(250, 110, 89, 0.6);
+}
+
+#project p {
+  display: inline-block;
+  color: #666;
+  letter-spacing: 1.2px;
+  font-weight: 400;
+  line-height: 1.7;
+  font-size: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+#project .technologies h3 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin-bottom: 1.5rem 0;
+  text-transform: uppercase;
+}
+
+#project .technologies .icons {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-gap: 15px;
+  position: relative;
+  justify-content: center;
+  align-items: center;
+}
+
+#project .technologies .icons .icon {
+  width: 100%;
+  font-size: 4rem;
+  max-width: 150px;
+}
